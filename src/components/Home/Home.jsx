@@ -9,7 +9,7 @@ const Home = () => {
         .then((data) => setMovies(data))
     },[])
     return (
-        <div className='movies-container '>
+        <div className='movies-container grid grid cols-1 md:grid-cols-2 lg : grid-cols-2 '>
             {
                 movies.map((movie) =><SingleCard
                 movie={movie}

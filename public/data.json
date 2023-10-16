@@ -14,7 +14,7 @@
       "movieName": "The Shawshank Redemption",
       "watchTime": 142,
       "description": "Wrongfully imprisoned men bond over time.",
-      "poster": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71JxA6I+sgL._AC_SL1000_.jpg",
+      "poster": "https://i.ibb.co/CvR8Dzh/movie.jpg",
       "category": "Drama",
       "imdbRating": 9.3
     },
@@ -42,6 +42,15 @@
       "watchTime": 175,
       "description": "Mafia family fights for control of organized crime.",
       "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
+      "category": "Crime/Drama",
+      "imdbRating": 9.2
+    },
+    {
+        "id" : 6,
+      "movieName": "Mission impossibel",
+      "watchTime": 1180,
+      "description": "Mafia family fights for control of organized crime.",
+      "poster": "https://i.ibb.co/L0W37vh/movie2.jpg",
       "category": "Crime/Drama",
       "imdbRating": 9.2
     }
