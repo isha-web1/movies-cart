@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import SingleCard from '../singleCard/SingleCard';
 
-const Home = () => {
+const Home = ({handleWatchTime}) => {
     const [movies, setMovies] = useState([]);
     useEffect(()=> {
         fetch('data.json')
@@ -12,6 +12,7 @@ const Home = () => {
         <div className='movies-container grid grid cols-1 md:grid-cols-2 lg : grid-cols-2 '>
             {
                 movies.map((movie) =><SingleCard
+                handleWatchTime={handleWatchTime}
                 movie={movie}
                 key={movie.id}
                 ></SingleCard>)
